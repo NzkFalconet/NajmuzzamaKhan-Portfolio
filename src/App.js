@@ -19,6 +19,7 @@ function App() {
       <Experiences  isDarkMode={isDarkMode} />
       <MyProject  isDarkMode={isDarkMode} />
     </div>
+    
   );
 }
 
