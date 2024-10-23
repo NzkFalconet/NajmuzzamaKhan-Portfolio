@@ -1,0 +1,20 @@
+/* FloatingDots.css */
+.floating-dots {
+    position: absolute; /* Allow for absolute positioning */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none; /* Prevent mouse events on dots */
+    z-index: 1; /* Lower z-index so they appear behind the content */
+}
+
+.dot {
+    position: absolute;
+    width: 10px; /* Size of the dot */
+    height: 10px; /* Size of the dot */
+    background-color: rgba(255, 255, 255, 0.8); /* Color of the dot */
+    border-radius: 50%; /* Makes it round */
+    opacity: 0.7; /* Slight transparency for visual effect */
+    transition: transform 0.3s ease; /* Smooth movement transition */
+}

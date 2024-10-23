@@ -1,0 +1,37 @@
+.experience-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.experience-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.experience-list,
+.expertise {
+    flex: 1; /* Equal width for both sections */
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc; /* Optional: add border for separation */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.experience-item {
+    margin-bottom: 1.5rem;
+}
+
+.expertise h3 {
+    margin-top: 1.5rem;
+}
+
+.expertise p {
+    margin: 0.5rem 0;
+}
